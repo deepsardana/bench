@@ -336,7 +336,7 @@ def get_passwords(args):
 			admin_password = args.admin_password
 
 		# prompt for passwords
-		pass_set = True
+		pass_set = False
 		while pass_set:
 			# mysql root password
 			if not mysql_root_password:
